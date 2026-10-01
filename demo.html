@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Pet Food Assistant</title>
+<style>
+:root{
+  --navy:#0b2850;
+  --navy2:#123e73;
+  --blue:#168ee8;
+  --cyan:#27b7ef;
+  --bg:#f3f8fd;
+  --card:#ffffff;
+  --text:#18324f;
+  --muted:#6b7f95;
+  --line:#dbe8f4;
+  --shadow:0 18px 45px rgba(11,40,80,.12);
+}
+*{box-sizing:border-box}
+body{
+  margin:0;font-family:"Segoe UI","Noto Sans Thai",Arial,sans-serif;
+  color:var(--text);background:linear-gradient(135deg,#edf7ff,#f8fbff);
+}
+header{
+  background:linear-gradient(135deg,var(--navy),#15508b);
+  color:white;padding:22px 5%;
+  display:flex;align-items:center;justify-content:space-between;
+  box-shadow:0 8px 25px rgba(11,40,80,.18);
+}
+.brand{display:flex;gap:14px;align-items:center}
+.logo{
+  width:52px;height:52px;border-radius:16px;
+  background:linear-gradient(135deg,var(--cyan),#168ee8);
+  display:grid;place-items:center;font-size:28px;
+}
+.brand h1{margin:0;font-size:25px;letter-spacing:.4px}
+.brand p{margin:4px 0 0;color:#cdeaff;font-size:13px}
+.badge{padding:8px 14px;border:1px solid #69c8ff;border-radius:999px;color:#e4f6ff;font-size:13px}
+main{max-width:1200px;margin:30px auto;padding:0 20px}
+.hero{
+  background:linear-gradient(120deg,#e2f4ff,#fff);
+  border:1px solid #d5eaf8;border-radius:24px;padding:28px 32px;
+  margin-bottom:22px;box-shadow:var(--shadow);
+}
+.hero h2{margin:0 0 7px;font-size:29px;color:var(--navy)}
+.hero p{margin:0;color:var(--muted)}
+.grid{display:grid;grid-template-columns:390px 1fr;gap:22px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:24px;box-shadow:var(--shadow)}
+.card h3{margin:0 0 18px;color:var(--navy);font-size:19px}
+label{display:block;font-size:13px;font-weight:700;margin:13px 0 6px}
+input,select{
+  width:100%;padding:12px 13px;border:1px solid #cbdceb;border-radius:12px;
+  font-size:14px;outline:none;background:white;color:var(--text)
+}
+input:focus,select:focus{border-color:var(--blue);box-shadow:0 0 0 3px #168ee81a}
+button{
+  width:100%;border:0;border-radius:14px;padding:14px;margin-top:18px;
+  font-size:16px;font-weight:700;color:white;cursor:pointer;
+  background:linear-gradient(90deg,#16a8e9,#1769d0);
+  box-shadow:0 10px 22px rgba(23,105,208,.22)
+}
+button:hover{filter:brightness(1.05)}
+button:disabled{opacity:.6;cursor:wait}
+.result-empty{
+  min-height:470px;display:grid;place-items:center;text-align:center;color:var(--muted)
+}
+.paw{font-size:62px;margin-bottom:8px}
+.result-top{background:linear-gradient(135deg,#e9f8ff,#f8fcff);border:1px solid #cde8f7;border-radius:18px;padding:20px}
+.result-top small{color:var(--muted)}
+.result-title{display:flex;align-items:center;justify-content:space-between;gap:15px}
+.result-title h2{margin:5px 0;color:var(--navy);font-size:27px}
+.confidence{min-width:105px;text-align:center;border-radius:16px;background:white;border:1px solid #d7e8f4;padding:12px}
+.confidence strong{display:block;color:var(--blue);font-size:22px}
+.foods{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:15px}
+.food{
+  border:1px solid var(--line);border-radius:16px;padding:16px;background:#fff
+}
+.food-num{
+  width:30px;height:30px;border-radius:50%;display:grid;place-items:center;
+  background:#e3f4ff;color:#0b70bd;font-weight:800;margin-bottom:12px
+}
+.food h4{margin:0 0 8px;font-size:15px}
+.tag{display:inline-block;background:#edf7ff;color:#1171b7;padding:5px 9px;border-radius:999px;font-size:11px}
+.note{margin-top:15px;padding:13px 15px;border-radius:13px;background:#f2fbf6;border:1px solid #d4efdf;color:#356b4d;font-size:13px}
+.warning{margin-top:12px;padding:13px 15px;border-radius:13px;background:#fff6f6;border:1px solid #f4d9d9;color:#8a5050;font-size:12px}
+footer{text-align:center;color:#7890a7;padding:28px;font-size:12px}
+@media(max-width:850px){.grid{grid-template-columns:1fr}.foods{grid-template-columns:1fr 1fr}}
+@media(max-width:560px){.foods{grid-template-columns:1fr}.brand p,.badge{display:none}.hero{padding:22px}.card{padding:18px}}
+
+/* ==============================
+   รูปแบบข้อความ AI Chat
+   ============================== */
+.ai-text {
+    white-space: pre-wrap;
+    line-height: 1.8;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.chat-text {
+    white-space: pre-wrap;
+    line-height: 1.6;
+    margin-top: 6px;
+}
+
+</style>
+</head>
+<body>
+<header>
+  <div class="brand">
+    <div class="logo">🐾</div>
+    <div>
+      <h1>AI PET FOOD</h1>
+      <p>Assistant · ระบบวิเคราะห์และแนะนำอาหารสัตว์เลี้ยงอัจฉริยะ</p>
+    </div>
+  </div>
+  <div class="badge">Powered by Machine Learning</div>
+</header>
+
+<main>
+  <section class="hero">
+    <h2>🐶 วิเคราะห์อาหารที่เหมาะกับสัตว์เลี้ยง</h2>
+    <p>กรอกข้อมูลสัตว์เลี้ยง แล้วระบบ AI/ML จะวิเคราะห์ประเภทโภชนาการและค้นหาอาหารตามงบประมาณ</p>
+  </section>
+
+  <section class="grid">
+    <div class="card">
+      <h3>📋 ข้อมูลสัตว์เลี้ยง</h3>
+
+      <label>ประเภทสัตว์</label>
+      <select id="pet_type">
+        <option value="Dog">สุนัข</option>
+        <option value="Cat">แมว</option>
+      </select>
+
+      <label>สายพันธุ์</label>
+      <select id="breed"></select>
+
+      <label>อายุ (ปี)</label>
+      <input id="age_years" type="number" min="0" step="0.1" value="6">
+
+      <label>น้ำหนัก (กก.)</label>
+      <input id="weight_kg" type="number" min="0.1" step="0.1" value="32">
+
+      <label>ปัญหาสุขภาพ</label>
+      <select id="health_issue">
+        <option value="Healthy">สุขภาพปกติ</option>
+        <option value="Joint Problem" selected>ปัญหาข้อต่อ</option>
+        <option value="Obesity">น้ำหนักเกิน</option>
+        <option value="Sensitive Digestion">ระบบย่อยอาหาร</option>
+      </select>
+
+      <label>ระดับกิจกรรม</label>
+      <select id="activity_level">
+        <option value="Low">ต่ำ</option>
+        <option value="Medium" selected>ปานกลาง</option>
+        <option value="High">สูง</option>
+      </select>
+
+      <label>งบประมาณ (บาท/กก.)</label>
+      <input id="budget_per_kg" type="number" min="0" step="1" value="200">
+
+      <button id="analyze" onclick="analyze()">🔍 วิเคราะห์และแนะนำอาหาร</button>
+    </div>
+
+    <div class="card" id="result">
+      <div class="result-empty">
+        <div>
+          <div class="paw">🐾</div>
+          <h3>พร้อมวิเคราะห์</h3>
+          <p>กรอกข้อมูลด้านซ้าย แล้วกดปุ่ม<br>“วิเคราะห์และแนะนำอาหาร”</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>AI PET FOOD Assistant · ML Classification + Knowledge Base · สำหรับการสาธิตระบบ</footer>
+
+<script>
+
+async function analyze(){ 
+
+  const btn=document.getElementById("analyze"); 
+  const result=document.getElementById("result"); 
+
+  btn.disabled=true; 
+  btn.textContent="⏳ กำลังวิเคราะห์..."; 
+
+  result.innerHTML=
+    '<div class="result-empty"><div><div class="paw">🤖</div><h3>AI กำลังวิเคราะห์ข้อมูล...</h3><p>กำลังประมวลผลด้วย Machine Learning</p></div></div>'; 
+
+  const data={ 
+    pet_type:document.getElementById("pet_type").value, 
+    breed:document.getElementById("breed").value, 
+    age_years:parseFloat(document.getElementById("age_years").value), 
+    weight_kg:parseFloat(document.getElementById("weight_kg").value), 
+    health_issue:document.getElementById("health_issue").value, 
+    activity_level:document.getElementById("activity_level").value, 
+    budget_per_kg:parseFloat(document.getElementById("budget_per_kg").value) 
+  }; 
+
+  try{ 
+
+    const response=await fetch("/recommend",{ 
+      method:"POST", 
+      headers:{"Content-Type":"application/json"}, 
+      body:JSON.stringify(data) 
+    }); 
+
+    if(!response.ok) {
+      throw new Error("API ตอบกลับไม่สำเร็จ");
+    }
+
+    const r=await response.json(); 
+
+    const foods=r.recommended_foods || []; 
+
+    let cards=foods.length 
+      ? foods.map((food,i)=>`
+          <div class="food">
+            <div class="food-num">${i+1}</div>
+            <h4>${escapeHtml(food)}</h4>
+            <span class="tag">${escapeHtml(r.prediction)}</span>
+          </div>
+        `).join("") 
+      : `
+        <div class="food">
+          <h4>ไม่พบอาหารที่ตรงกับเงื่อนไข</h4>
+          <p>ลองเพิ่มงบประมาณหรือตรวจสอบข้อมูล</p>
+        </div>
+      `; 
+
+    result.innerHTML=` 
+      <div class="result-top"> 
+        <small>ประเภทโภชนาการที่เหมาะสม</small> 
+
+        <div class="result-title"> 
+          <h2>🧠 ${escapeHtml(r.prediction)}</h2> 
+
+          <div class="confidence">
+            <small>ความมั่นใจ</small>
+            <strong>${Number(r.confidence).toFixed(2)}%</strong>
+          </div> 
+        </div> 
+      </div> 
+
+      <h3 style="margin-top:22px">
+        🍖 อาหารที่แนะนำ
+        <span style="font-size:13px;color:#7890a7">
+          (${foods.length} รายการ)
+        </span>
+      </h3> 
+
+      <div class="foods">${cards}</div> 
+
+      <div class="note">
+        ✓ ผลลัพธ์ถูกสร้างจากข้อมูลสัตว์เลี้ยง + โมเดล Machine Learning + ฐานข้อมูลอาหารของระบบ
+      </div> 
+
+      <div class="warning">
+        ⚠ ผลลัพธ์นี้เป็นคำแนะนำจากระบบ AI/ML ไม่ใช่การวินิจฉัยทางสัตวแพทย์
+      </div> 
+    `; 
+
+  }catch(e){ 
+
+    result.innerHTML=`
+      <div class="result-empty">
+        <div>
+          <div class="paw">⚠️</div>
+          <h3>เชื่อมต่อ API ไม่สำเร็จ</h3>
+          <p>
+            ตรวจสอบว่าเปิด <b>python api.py</b>
+            และ API ทำงานที่พอร์ต 5000
+          </p>
+          <p style="font-size:12px">
+            ${escapeHtml(e.message)}
+          </p>
+        </div>
+      </div>
+    `; 
+
+  }finally{ 
+
+    btn.disabled=false; 
+    btn.textContent="🔍 วิเคราะห์และแนะนำอาหาร"; 
+
+  } 
+
+}
+
+
+/* ============================= */
+/* escape HTML */
+/* ============================= */
+
+function escapeHtml(s){  
+
+  return String(s).replace(
+    /[&<>"']/g, 
+    m=>({
+      "&":"&amp;",
+      "<":"&lt;",
+      ">":"&gt;",
+      "\"":"&quot;",
+      "'":"&#039;"
+    }[m])
+  );  
+
+}
+
+
+/* ============================= */
+/* เลือกสายพันธุ์ตามประเภทสัตว์ */
+/* ============================= */
+
+const petTypeSelect =
+  document.getElementById("pet_type"); 
+
+const breedSelect =
+  document.getElementById("breed"); 
+
+
+const dogBreeds = [ 
+  "Golden Retriever", 
+  "Labrador Retriever", 
+  "Poodle", 
+  "Chihuahua", 
+  "Pomeranian", 
+  "Shih Tzu", 
+  "French Bulldog", 
+  "German Shepherd", 
+  "Siberian Husky", 
+  "Beagle", 
+  "Corgi", 
+  "Dachshund", 
+  "Yorkshire Terrier", 
+  "Rottweiler", 
+  "Mixed Breed" 
+]; 
+
+
+const catBreeds = [ 
+  "Persian", 
+  "British Shorthair", 
+  "Scottish Fold", 
+  "Siamese", 
+  "American Shorthair", 
+  "Bengal", 
+  "Maine Coon", 
+  "Ragdoll", 
+  "Sphynx", 
+  "Exotic Shorthair", 
+  "Mixed Breed" 
+]; 
+
+
+function updateBreeds(){ 
+
+  const petType =
+    petTypeSelect.value; 
+
+  breedSelect.innerHTML = ""; 
+
+  const breeds =
+    petType === "Dog"
+      ? dogBreeds
+      : catBreeds; 
+
+
+  breeds.forEach(function(breed){ 
+
+    const option =
+      document.createElement("option"); 
+
+    option.value = breed; 
+
+    option.textContent = breed; 
+
+    breedSelect.appendChild(option); 
+
+  }); 
+
+} 
+
+
+petTypeSelect.addEventListener(
+  "change",
+  updateBreeds
+); 
+
+
+/* โหลดสายพันธุ์ตอนเปิดหน้า */
+
+updateBreeds();
+
+
+</script>
+</body>
+<!-- ============================= -->
+<!-- AI CHAT ASSISTANT -->
+<!-- ============================= -->
+
+<section class="chat-section">
+
+    <div class="chat-header">
+        <div>
+            <h2>💬 AI Pet Food Assistant</h2>
+            <p>ถามเกี่ยวกับอาหารและผลการวิเคราะห์สัตว์เลี้ยงของคุณ</p>
+        </div>
+
+        <span class="chat-status">
+            ● AI Assistant
+        </span>
+    </div>
+
+
+    <!-- Chat Messages -->
+    <div id="chatMessages" class="chat-messages">
+
+        <div class="message ai-message">
+            <div class="message-avatar">🐾</div>
+
+            <div class="message-content">
+                <strong>AI Pet Food Assistant</strong>
+
+                <p>
+                    สวัสดีครับ 👋
+                    ผมสามารถช่วยตอบคำถามเกี่ยวกับอาหาร
+                    ผลการวิเคราะห์ และคำแนะนำสำหรับสัตว์เลี้ยงของคุณได้ครับ
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- Chat Input -->
+    <div class="chat-input-area">
+
+        <input
+            type="text"
+            id="chatInput"
+            placeholder="พิมพ์คำถาม เช่น ทำไมถึงแนะนำ Joint Care?"
+            autocomplete="off"
+        >
+
+        <button
+            type="button"
+            id="sendChatButton"
+        >
+            ส่ง
+        </button>
+
+    </div>
+
+</section>
+
+
+<style>
+
+.chat-section {
+    max-width: 1085px;
+    margin: 30px auto 60px;
+    background: white;
+    border-radius: 24px;
+    padding: 28px;
+    box-shadow: 0 10px 35px rgba(20, 70, 120, 0.10);
+}
+
+.chat-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.chat-header h2 {
+    margin: 0 0 6px;
+    color: #123b68;
+    font-size: 24px;
+}
+
+.chat-header p {
+    margin: 0;
+    color: #66819c;
+    font-size: 14px;
+}
+
+.chat-status {
+    border: 1px solid #b8ddf5;
+    color: #1689d8;
+    border-radius: 20px;
+    padding: 8px 14px;
+    font-size: 13px;
+    background: #f4fbff;
+}
+
+.chat-messages {
+    min-height: 180px;
+    max-height: 360px;
+    overflow-y: auto;
+    padding: 18px;
+    border: 1px solid #dceaf5;
+    border-radius: 18px;
+    background: #f8fbfe;
+    margin-bottom: 15px;
+}
+
+.message {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 18px;
+}
+
+.message-avatar {
+    width: 38px;
+    height: 38px;
+    min-width: 38px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e1f3ff;
+    font-size: 20px;
+}
+
+.message-content {
+    background: white;
+    border: 1px solid #dceaf5;
+    border-radius: 15px;
+    padding: 12px 16px;
+    max-width: 80%;
+    color: #183b5d;
+}
+
+.message-content strong {
+    color: #123b68;
+}
+
+.message-content p {
+    margin: 6px 0 0;
+    line-height: 1.6;
+}
+
+.user-message {
+    justify-content: flex-end;
+}
+
+.user-message .message-content {
+    background: #168fda;
+    color: white;
+    border: none;
+}
+
+.user-message .message-content strong {
+    color: white;
+}
+
+.chat-input-area {
+    display: flex;
+    gap: 10px;
+}
+
+#chatInput {
+    flex: 1;
+    height: 50px;
+    border: 1px solid #cbddea;
+    border-radius: 14px;
+    padding: 0 16px;
+    font-size: 15px;
+    outline: none;
+}
+
+#chatInput:focus {
+    border-color: #168fda;
+}
+
+#sendChatButton {
+    width: 90px;
+    border: none;
+    border-radius: 14px;
+    background: linear-gradient(135deg, #13a9df, #176dd5);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#sendChatButton:hover {
+    opacity: 0.9;
+}
+
+@media (max-width: 700px) {
+
+    .chat-section {
+        margin: 20px 12px 40px;
+        padding: 18px;
+    }
+
+    .chat-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+    .chat-input-area {
+        flex-direction: column;
+    }
+
+    #sendChatButton {
+        width: 100%;
+        height: 48px;
+    }
+
+}
+
+</style>
+
+
+<script>
+
+// ==========================================
+// AI CHAT
+// ==========================================
+
+const chatInput = document.getElementById("chatInput");
+const sendChatButton = document.getElementById("sendChatButton");
+const chatMessages = document.getElementById("chatMessages");
+
+
+// เพิ่มข้อความลงใน Chat
+function addChatMessage(message, type) {
+
+    const wrapper = document.createElement("div");
+
+    wrapper.className =
+        type === "user"
+            ? "message user-message"
+            : "message ai-message";
+
+
+    if (type === "user") {
+
+        const content = document.createElement("div");
+
+        content.className = "message-content";
+
+        const title = document.createElement("strong");
+
+        title.textContent = "คุณ";
+
+        const text = document.createElement("div");
+
+        text.className = "chat-text";
+
+        text.textContent = message;
+
+        content.appendChild(title);
+        content.appendChild(text);
+
+        wrapper.appendChild(content);
+
+    } else {
+
+        const avatar = document.createElement("div");
+
+        avatar.className = "message-avatar";
+
+        avatar.textContent = "🐾";
+
+
+        const content = document.createElement("div");
+
+        content.className = "message-content";
+
+
+        const title = document.createElement("strong");
+
+        title.textContent = "AI Pet Food Assistant";
+
+
+        const text = document.createElement("div");
+
+        text.className = "ai-text";
+
+        text.textContent = message;
+
+
+        content.appendChild(title);
+        content.appendChild(text);
+
+        wrapper.appendChild(avatar);
+        wrapper.appendChild(content);
+    }
+
+
+    chatMessages.appendChild(wrapper);
+
+    chatMessages.scrollTop =
+        chatMessages.scrollHeight;
+}
+
+// ส่งข้อความ
+async function sendChatMessage() {
+
+    const message =
+        chatInput.value.trim();
+
+
+    if (!message) {
+        return;
+    }
+
+
+    // แสดงข้อความผู้ใช้
+    addChatMessage(message, "user");
+
+
+    // ล้างช่อง
+    chatInput.value = "";
+
+
+    // แสดงสถานะกำลังคิด
+    addChatMessage(
+        "กำลังวิเคราะห์คำถาม...",
+        "ai"
+    );
+
+
+    try {
+
+        const response = await fetch("/chat", {
+
+            method: "POST",
+
+            headers: {
+                "Content-Type": "application/json"
+            },
+
+            body: JSON.stringify({
+                message: message
+            })
+
+        });
+
+
+        const result =
+            await response.json();
+
+
+        // ลบข้อความ "กำลังวิเคราะห์"
+        const messages =
+            chatMessages.querySelectorAll(".ai-message");
+
+        if (messages.length > 0) {
+            messages[messages.length - 1].remove();
+        }
+
+
+        if (result.reply) {
+
+            addChatMessage(
+                result.reply,
+                "ai"
+            );
+
+        } else {
+
+            addChatMessage(
+                "ไม่สามารถรับคำตอบจาก AI ได้",
+                "ai"
+            );
+
+        }
+
+    } catch (error) {
+
+        const messages =
+            chatMessages.querySelectorAll(".ai-message");
+
+        if (messages.length > 0) {
+            messages[messages.length - 1].remove();
+        }
+
+        addChatMessage(
+            "ไม่สามารถเชื่อมต่อ Chat API ได้ กรุณาตรวจสอบว่า Flask API กำลังทำงานอยู่",
+            "ai"
+        );
+
+    }
+
+}
+
+
+// กดปุ่มส่ง
+sendChatButton.addEventListener(
+    "click",
+    sendChatMessage
+);
+
+
+// กด Enter เพื่อส่ง
+chatInput.addEventListener(
+    "keydown",
+    function(event) {
+
+        if (event.key === "Enter") {
+
+            event.preventDefault();
+
+            sendChatMessage();
+
+        }
+
+    }
+);
+
+</script>
+</html>
