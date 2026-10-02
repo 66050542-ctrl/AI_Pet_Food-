@@ -1,0 +1,50 @@
+brand,formula,pet_type,nutrition_category,price_per_kg,grade,protein_percent,fat_percent
+Maxima,Dog Maintenance,Dog,Adult Maintenance,120,Standard,24,12
+Maxima,Dog Joint Care,Dog,Joint Care,150,Standard,25,13
+Maxima,Dog Senior,Dog,Senior Formula,145,Standard,24,11
+Maxima,Dog Sensitive,Dog,Sensitive Skin,155,Standard,25,13
+Maxima,Dog Weight Control,Dog,Weight Control,150,Standard,27,9
+Maxima,Cat Adult,Cat,Adult Maintenance,130,Standard,30,12
+Maxima,Cat Hairball,Cat,Hairball Control,150,Standard,32,13
+Maxima,Cat Sensitive,Cat,Sensitive Skin,160,Standard,31,12
+Buzz,Nature Gold Adult,Dog,Adult Maintenance,170,Premium,26,14
+Buzz,Nature Gold Joint,Dog,Joint Care,190,Premium,27,14
+Buzz,Nature Gold Senior,Dog,Senior Formula,185,Premium,26,12
+Buzz,Nature Gold Sensitive,Dog,Sensitive Skin,195,Premium,27,13
+Buzz,Nature Gold Weight,Dog,Weight Control,180,Premium,28,10
+Buzz,Nature Gold Puppy,Dog,Puppy/Kitten Growth,175,Premium,29,15
+Buzz,Cat Adult,Cat,Adult Maintenance,180,Premium,32,14
+Buzz,Cat Hairball,Cat,Hairball Control,195,Premium,34,15
+Pro Plan,Adult Dog,Dog,Adult Maintenance,230,Premium,27,15
+Pro Plan,Joint Care Dog,Dog,Joint Care,250,Premium,28,14
+Pro Plan,Senior Dog,Dog,Senior Formula,260,Premium,27,13
+Pro Plan,Sensitive Skin Dog,Dog,Sensitive Skin,245,Premium,28,15
+Pro Plan,Weight Management Dog,Dog,Weight Control,240,Premium,30,10
+Pro Plan,Puppy Dog,Dog,Puppy/Kitten Growth,235,Premium,30,17
+Pro Plan,Adult Cat,Cat,Adult Maintenance,250,Premium,36,16
+Pro Plan,Hairball Cat,Cat,Hairball Control,270,Premium,38,16
+Royal Canin,Adult Medium Dog,Dog,Adult Maintenance,290,Premium,25,14
+Royal Canin,Joint Care Dog,Dog,Joint Care,310,Premium,26,14
+Royal Canin,Senior Dog,Dog,Senior Formula,320,Premium,26,13
+Royal Canin,Skin Care Dog,Dog,Sensitive Skin,330,Premium,25,16
+Royal Canin,Weight Care Dog,Dog,Weight Control,315,Premium,30,11
+Royal Canin,Golden Retriever Adult,Dog,Adult Maintenance,320,Premium,27,14
+Royal Canin,Puppy Dog,Dog,Puppy/Kitten Growth,300,Premium,30,16
+Royal Canin,Adult Cat,Cat,Adult Maintenance,310,Premium,32,15
+Royal Canin,Hairball Cat,Cat,Hairball Control,325,Premium,34,16
+Hills,Adult Dog,Dog,Adult Maintenance,280,Premium,25,14
+Hills,Joint Care Dog,Dog,Joint Care,300,Premium,26,14
+Hills,Senior Dog,Dog,Senior Formula,310,Premium,25,13
+Hills,Sensitive Skin Dog,Dog,Sensitive Skin,295,Premium,25,15
+Hills,Weight Control Dog,Dog,Weight Control,290,Premium,28,10
+Hills,Puppy Dog,Dog,Puppy/Kitten Growth,285,Premium,29,16
+Hills,Adult Cat,Cat,Adult Maintenance,300,Premium,33,15
+Hills,Hairball Cat,Cat,Hairball Control,315,Premium,35,16
+SmartHeart,Adult Dog,Dog,Adult Maintenance,95,Standard,22,10
+SmartHeart,Joint Care Dog,Dog,Joint Care,110,Standard,23,11
+SmartHeart,Senior Dog,Dog,Senior Formula,105,Standard,22,10
+SmartHeart,Sensitive Dog,Dog,Sensitive Skin,115,Standard,23,11
+SmartHeart,Weight Control Dog,Dog,Weight Control,110,Standard,25,8
+SmartHeart,Puppy Dog,Dog,Puppy/Kitten Growth,105,Standard,27,14
+SmartHeart,Adult Cat,Cat,Adult Maintenance,110,Standard,29,12
+SmartHeart,Hairball Cat,Cat,Hairball Control,125,Standard,31,13

@@ -1,0 +1,501 @@
+﻿pet_type,breed,age_years,weight_kg,health_issue,activity_level,budget_per_kg,nutrition_category,recommended_food_grade
+Dog,Labrador Retriever,3,21.2,No Health Problem,Medium,200,Adult Maintenance,Premium
+Cat,Domestic Shorthair,8,6.3,Digestive Problem,Medium,280,Digestive Care,Standard
+Cat,British Shorthair,7,5.4,Healthy,Low,140,Adult Maintenance,Premium
+Dog,Labrador Retriever,2,27.0,Mobility Problem,High,400,Joint Care,Premium
+Dog,Labrador Retriever,2,23.9,No Health Problem,Low,160,Adult Maintenance,Standard
+Cat,British Shorthair,12,5.6,Age Related,Medium,280,Senior Formula,Standard
+Dog,Labrador Retriever,5,27.1,Arthritis Risk,High,180,Joint Care,Premium
+Cat,Scottish Fold,5,5.1,Hairball,High,220,Hairball Control,Premium
+Cat,Maine Coon,11,8.4,Age Related,High,200,Senior Formula,Standard
+Cat,Ragdoll,3,4.6,Healthy,Medium,250,Adult Maintenance,Holistic
+Cat,Ragdoll,12,8.6,Age Related,High,180,Senior Formula,Standard
+Cat,British Shorthair,9,6.5,Healthy,Low,250,Adult Maintenance,Holistic
+Cat,British Shorthair,2,6.0,Hairball,Low,280,Hairball Control,Holistic
+Cat,Siamese,9,4.2,Food Intolerance,High,400,Digestive Care,Standard
+Cat,Ragdoll,9,5.3,Healthy,Medium,160,Adult Maintenance,Premium
+Dog,German Shepherd,1,36.0,Young,Low,350,Puppy/Kitten Growth,Premium
+Cat,Scottish Fold,2,4.2,Healthy,Low,200,Adult Maintenance,Premium
+Cat,Domestic Shorthair,6,3.0,Itching,High,220,Sensitive Skin,Standard
+Cat,Maine Coon,8,7.4,Food Intolerance,Low,280,Digestive Care,Standard
+Dog,Chihuahua,11,3.8,Senior,High,300,Senior Formula,Premium
+Cat,American Shorthair,5,4.3,Healthy,Low,140,Adult Maintenance,Standard
+Dog,Bulldog,8,21.0,Skin Allergy,Low,220,Sensitive Skin,Standard
+Dog,Chihuahua,8,2.8,Arthritis Risk,High,400,Joint Care,Premium
+Dog,Labrador Retriever,12,23.5,Senior,Medium,180,Senior Formula,Standard
+Cat,British Shorthair,2,8.7,Healthy,Medium,280,Adult Maintenance,Holistic
+Cat,Maine Coon,3,7.2,Healthy,Low,250,Adult Maintenance,Standard
+Cat,Maine Coon,13,8.0,Age Related,Medium,160,Senior Formula,Standard
+Cat,Siamese,9,4.4,Overweight,High,120,Weight Control,Premium
+Cat,Bengal,13,4.1,Age Related,High,100,Senior Formula,Standard
+Cat,British Shorthair,5,5.4,Food Intolerance,High,200,Digestive Care,Standard
+Dog,Beagle,5,8.1,Skin Allergy,Medium,300,Sensitive Skin,Standard
+Cat,British Shorthair,4,4.6,Hairball,High,180,Hairball Control,Premium
+Dog,Poodle,5,3.6,Mobility Problem,Low,400,Joint Care,Premium
+Dog,Labrador Retriever,7,33.1,Digestive Problem,Medium,400,Digestive Care,Standard
+Dog,German Shepherd,6,32.8,Overweight,Low,100,Weight Control,Standard
+Cat,Scottish Fold,3,3.1,Digestive Problem,Low,250,Digestive Care,Premium
+Dog,Shih Tzu,12,7.3,Senior,High,220,Senior Formula,Premium
+Cat,Ragdoll,6,8.1,Sensitive Stomach,Medium,220,Digestive Care,Holistic
+Cat,Persian,5,4.4,No Health Problem,Low,160,Adult Maintenance,Premium
+Dog,Labrador Retriever,4,20.0,Obesity Risk,Low,350,Weight Control,Premium
+Dog,Shih Tzu,7,8.3,Joint Problem,High,160,Joint Care,Standard
+Dog,Chihuahua,3,2.3,Digestive Problem,Low,280,Digestive Care,Premium
+Dog,Poodle,5,8.6,No Health Problem,Low,140,Adult Maintenance,Premium
+Dog,Shih Tzu,10,4.3,Age Related,High,300,Senior Formula,Premium
+Cat,Scottish Fold,9,4.2,No Health Problem,Low,160,Adult Maintenance,Premium
+Dog,Beagle,4,13.0,No Health Problem,Low,250,Adult Maintenance,Standard
+Cat,Domestic Shorthair,10,4.6,Age Related,Medium,160,Senior Formula,Standard
+Dog,Beagle,8,9.3,Mobility Problem,Low,200,Joint Care,Standard
+Dog,Beagle,2,11.8,No Health Problem,Medium,280,Adult Maintenance,Premium
+Cat,Domestic Shorthair,15,5.2,Senior,High,160,Senior Formula,Premium
+Cat,Domestic Shorthair,13,6.4,Age Related,Medium,100,Senior Formula,Standard
+Dog,German Shepherd,6,39.4,Itching,High,220,Sensitive Skin,Premium
+Dog,Golden Retriever,2,27.3,No Health Problem,High,120,Adult Maintenance,Standard
+Dog,Poodle,10,11.1,Age Related,Medium,120,Senior Formula,Premium
+Cat,Scottish Fold,8,5.4,Sensitive Stomach,Low,300,Digestive Care,Premium
+Cat,British Shorthair,9,4.1,Overweight,Low,180,Weight Control,Premium
+Dog,Labrador Retriever,6,21.8,Skin Allergy,Medium,160,Sensitive Skin,Holistic
+Cat,Bengal,5,4.3,Overweight,Low,400,Weight Control,Premium
+Cat,Bengal,3,6.5,Hairball,Medium,400,Hairball Control,Holistic
+Cat,Persian,15,4.7,Age Related,Medium,220,Senior Formula,Premium
+Dog,Chihuahua,8,3.2,Sensitive Skin,Medium,350,Sensitive Skin,Premium
+Cat,Maine Coon,7,8.0,Skin Allergy,Low,140,Sensitive Skin,Holistic
+Cat,Exotic Shorthair,5,6.6,Overweight,Low,120,Weight Control,Standard
+Dog,Siberian Husky,8,29.8,Skin Allergy,High,140,Sensitive Skin,Standard
+Cat,Scottish Fold,1,5.1,Growth Stage,High,220,Puppy/Kitten Growth,Holistic
+Dog,Bulldog,5,19.8,Arthritis Risk,High,250,Joint Care,Holistic
+Cat,Maine Coon,8,6.6,Overweight,High,220,Weight Control,Premium
+Cat,Scottish Fold,11,3.9,Age Related,Medium,140,Senior Formula,Holistic
+Cat,Scottish Fold,10,4.8,Senior,Medium,140,Senior Formula,Premium
+Dog,Poodle,1,7.8,Young,Low,100,Puppy/Kitten Growth,Standard
+Dog,Bulldog,4,27.2,Skin Allergy,High,400,Sensitive Skin,Premium
+Dog,Beagle,3,13.1,Healthy,Medium,250,Adult Maintenance,Premium
+Dog,Corgi,11,10.3,Age Related,Medium,120,Senior Formula,Standard
+Cat,Exotic Shorthair,2,6.4,Hairball,Medium,160,Hairball Control,Holistic
+Dog,Poodle,4,9.8,Overweight,High,100,Weight Control,Standard
+Cat,Exotic Shorthair,4,4.3,Food Intolerance,Medium,200,Digestive Care,Standard
+Dog,German Shepherd,3,23.6,Healthy,High,120,Adult Maintenance,Premium
+Cat,Exotic Shorthair,4,3.1,No Health Problem,Low,400,Adult Maintenance,Standard
+Cat,Exotic Shorthair,1,3.3,Growth Stage,Medium,280,Puppy/Kitten Growth,Holistic
+Cat,Siamese,12,4.4,Age Related,Low,180,Senior Formula,Holistic
+Dog,Chihuahua,8,2.9,No Health Problem,Low,400,Adult Maintenance,Standard
+Cat,American Shorthair,4,6.7,Obesity Risk,Medium,220,Weight Control,Premium
+Cat,British Shorthair,9,4.9,Hairball,High,400,Hairball Control,Premium
+Cat,Persian,15,6.4,Age Related,Medium,300,Senior Formula,Holistic
+Dog,Siberian Husky,4,29.0,Obesity Risk,Low,280,Weight Control,Standard
+Dog,Golden Retriever,9,37.4,No Health Problem,High,350,Adult Maintenance,Premium
+Cat,Siamese,7,4.9,Food Intolerance,Low,280,Digestive Care,Premium
+Cat,British Shorthair,6,7.6,Overweight,Medium,250,Weight Control,Premium
+Dog,Shih Tzu,2,6.2,Joint Problem,Low,100,Joint Care,Premium
+Dog,German Shepherd,7,31.9,Itching,Medium,350,Sensitive Skin,Standard
+Dog,Shih Tzu,3,8.8,Obesity Risk,Low,180,Weight Control,Premium
+Cat,American Shorthair,14,4.1,Senior,High,400,Senior Formula,Standard
+Cat,Scottish Fold,5,6.0,Digestive Problem,Low,100,Digestive Care,Premium
+Cat,British Shorthair,4,5.5,Healthy,Low,280,Adult Maintenance,Standard
+Cat,British Shorthair,11,6.3,Senior,Low,100,Senior Formula,Holistic
+Cat,Siamese,12,2.7,Age Related,Medium,350,Senior Formula,Holistic
+Dog,Golden Retriever,3,36.6,Joint Problem,Medium,180,Joint Care,Standard
+Cat,Persian,6,3.0,No Health Problem,High,140,Adult Maintenance,Standard
+Cat,Ragdoll,14,6.1,Age Related,Medium,180,Senior Formula,Premium
+Dog,German Shepherd,10,34.0,Age Related,Low,180,Senior Formula,Premium
+Dog,Golden Retriever,3,26.8,Digestive Problem,Medium,350,Digestive Care,Premium
+Dog,Poodle,6,10.1,No Health Problem,Medium,300,Adult Maintenance,Holistic
+Dog,Golden Retriever,7,21.2,Obesity Risk,Medium,250,Weight Control,Premium
+Cat,Maine Coon,11,6.0,Age Related,Medium,140,Senior Formula,Premium
+Dog,Shih Tzu,1,4.5,Young,Low,160,Puppy/Kitten Growth,Standard
+Dog,Labrador Retriever,1,37.8,Young,High,120,Puppy/Kitten Growth,Premium
+Cat,Scottish Fold,13,5.8,Age Related,High,160,Senior Formula,Standard
+Dog,Poodle,12,8.0,Age Related,High,350,Senior Formula,Holistic
+Cat,Maine Coon,14,7.9,Age Related,High,120,Senior Formula,Premium
+Cat,Bengal,13,6.2,Age Related,Medium,220,Senior Formula,Standard
+Cat,Ragdoll,12,4.5,Age Related,High,350,Senior Formula,Standard
+Cat,Bengal,4,7.4,Obesity Risk,Low,300,Weight Control,Standard
+Cat,American Shorthair,9,5.7,No Health Problem,Medium,120,Adult Maintenance,Standard
+Cat,Exotic Shorthair,4,3.8,Food Intolerance,High,220,Digestive Care,Standard
+Cat,Bengal,11,7.0,Age Related,Low,160,Senior Formula,Standard
+Dog,Labrador Retriever,1,32.5,Young,Medium,100,Puppy/Kitten Growth,Premium
+Cat,Exotic Shorthair,10,5.0,Age Related,High,120,Senior Formula,Holistic
+Cat,Siamese,6,3.7,Obesity Risk,High,250,Weight Control,Premium
+Cat,Maine Coon,15,8.0,Senior,Medium,350,Senior Formula,Holistic
+Cat,American Shorthair,14,6.7,Senior,Low,220,Senior Formula,Standard
+Dog,Bulldog,4,20.6,Healthy,Medium,160,Adult Maintenance,Premium
+Cat,Siamese,12,3.2,Age Related,High,180,Senior Formula,Premium
+Cat,Ragdoll,6,7.4,Healthy,High,250,Adult Maintenance,Premium
+Dog,Golden Retriever,10,25.9,Age Related,Medium,200,Senior Formula,Standard
+Dog,Golden Retriever,6,26.0,Joint Problem,High,100,Joint Care,Standard
+Dog,Poodle,11,10.1,Senior,Medium,140,Senior Formula,Premium
+Dog,Poodle,10,6.4,Senior,Low,120,Senior Formula,Holistic
+Cat,Scottish Fold,3,6.9,Hairball,Medium,200,Hairball Control,Standard
+Dog,Golden Retriever,7,29.5,Healthy,Low,200,Adult Maintenance,Premium
+Dog,German Shepherd,2,31.0,No Health Problem,Medium,200,Adult Maintenance,Premium
+Dog,Bulldog,11,26.1,Senior,Medium,200,Senior Formula,Holistic
+Dog,German Shepherd,10,34.1,Age Related,High,140,Senior Formula,Premium
+Cat,Exotic Shorthair,9,4.9,Sensitive Skin,Low,220,Sensitive Skin,Premium
+Dog,Chihuahua,6,3.0,Healthy,Medium,160,Adult Maintenance,Standard
+Cat,Ragdoll,5,7.9,Obesity Risk,High,140,Weight Control,Standard
+Dog,German Shepherd,5,29.3,Obesity Risk,High,120,Weight Control,Standard
+Cat,Scottish Fold,6,5.8,Skin Allergy,High,250,Sensitive Skin,Standard
+Dog,Corgi,12,12.3,Senior,Medium,250,Senior Formula,Premium
+Dog,Bulldog,8,23.0,Sensitive Stomach,Medium,250,Digestive Care,Premium
+Dog,Bulldog,7,27.5,No Health Problem,Medium,160,Adult Maintenance,Premium
+Dog,Chihuahua,10,1.8,Age Related,Low,300,Senior Formula,Standard
+Cat,Ragdoll,5,8.4,No Health Problem,High,200,Adult Maintenance,Premium
+Dog,Bulldog,5,23.3,Joint Problem,Low,100,Joint Care,Premium
+Dog,Beagle,11,12.1,Senior,Low,180,Senior Formula,Standard
+Dog,Bulldog,8,25.8,Skin Allergy,Low,280,Sensitive Skin,Standard
+Cat,Siamese,3,3.4,Obesity Risk,High,400,Weight Control,Standard
+Dog,Corgi,8,10.1,No Health Problem,Low,200,Adult Maintenance,Premium
+Dog,Corgi,6,11.8,Healthy,Medium,400,Adult Maintenance,Premium
+Dog,Siberian Husky,4,25.8,Food Intolerance,High,280,Digestive Care,Standard
+Cat,Ragdoll,15,7.6,Age Related,High,300,Senior Formula,Standard
+Cat,Scottish Fold,4,3.3,Healthy,Low,250,Adult Maintenance,Holistic
+Dog,Beagle,9,10.3,Sensitive Stomach,Medium,140,Digestive Care,Holistic
+Cat,Persian,14,3.4,Senior,Low,140,Senior Formula,Premium
+Dog,Poodle,7,5.2,Mobility Problem,Medium,140,Joint Care,Holistic
+Cat,Persian,4,5.7,Hairball,Medium,140,Hairball Control,Premium
+Dog,Beagle,11,9.7,Senior,High,300,Senior Formula,Premium
+Cat,Ragdoll,10,4.5,Senior,High,160,Senior Formula,Holistic
+Dog,Labrador Retriever,12,21.7,Senior,Medium,160,Senior Formula,Holistic
+Dog,Beagle,8,13.3,Digestive Problem,Medium,280,Digestive Care,Holistic
+Cat,Scottish Fold,14,4.3,Senior,High,350,Senior Formula,Premium
+Cat,Persian,10,6.6,Senior,High,200,Senior Formula,Holistic
+Dog,Labrador Retriever,7,26.6,Overweight,Medium,120,Weight Control,Standard
+Cat,Domestic Shorthair,2,4.0,Hairball,Low,200,Hairball Control,Premium
+Cat,Maine Coon,14,10.4,Senior,High,140,Senior Formula,Holistic
+Cat,American Shorthair,14,7.9,Senior,Medium,100,Senior Formula,Standard
+Dog,Siberian Husky,4,25.9,Mobility Problem,High,350,Joint Care,Premium
+Cat,Ragdoll,5,8.8,Obesity Risk,Low,100,Weight Control,Standard
+Dog,Beagle,5,8.8,Arthritis Risk,Low,280,Joint Care,Standard
+Cat,American Shorthair,14,5.0,Age Related,High,160,Senior Formula,Premium
+Cat,Persian,15,4.0,Age Related,High,140,Senior Formula,Standard
+Dog,Bulldog,6,21.9,Joint Problem,Medium,400,Joint Care,Standard
+Dog,Golden Retriever,12,20.6,Age Related,Low,280,Senior Formula,Premium
+Cat,Ragdoll,9,7.9,Overweight,Low,180,Weight Control,Standard
+Dog,Poodle,6,5.3,Joint Problem,Medium,120,Joint Care,Holistic
+Dog,Shih Tzu,10,5.8,Senior,High,280,Senior Formula,Premium
+Dog,Bulldog,4,18.5,Food Intolerance,Low,250,Digestive Care,Holistic
+Cat,Exotic Shorthair,9,5.6,No Health Problem,Medium,200,Adult Maintenance,Premium
+Cat,Persian,9,4.0,Hairball,High,180,Hairball Control,Holistic
+Cat,Maine Coon,10,10.0,Age Related,Medium,140,Senior Formula,Standard
+Cat,American Shorthair,12,6.5,Senior,Medium,140,Senior Formula,Premium
+Cat,American Shorthair,3,7.8,Obesity Risk,High,140,Weight Control,Premium
+Cat,American Shorthair,1,4.8,Growth Stage,Low,120,Puppy/Kitten Growth,Premium
+Dog,Siberian Husky,12,22.8,Senior,High,250,Senior Formula,Premium
+Cat,American Shorthair,3,4.1,Sensitive Skin,High,120,Sensitive Skin,Holistic
+Cat,American Shorthair,5,5.0,Hairball,High,200,Hairball Control,Holistic
+Dog,Shih Tzu,2,5.1,Joint Problem,Medium,100,Joint Care,Standard
+Cat,Ragdoll,12,7.6,Age Related,High,220,Senior Formula,Standard
+Dog,German Shepherd,6,31.7,Arthritis Risk,Low,220,Joint Care,Standard
+Cat,British Shorthair,8,6.9,Overweight,High,140,Weight Control,Standard
+Dog,Shih Tzu,10,8.3,Age Related,Medium,200,Senior Formula,Premium
+Cat,American Shorthair,6,5.5,Healthy,Low,300,Adult Maintenance,Standard
+Dog,German Shepherd,1,37.0,Young,Medium,200,Puppy/Kitten Growth,Standard
+Cat,Scottish Fold,8,6.7,Hairball,High,350,Hairball Control,Premium
+Dog,German Shepherd,4,29.8,Sensitive Skin,Low,200,Sensitive Skin,Standard
+Dog,German Shepherd,4,24.8,Healthy,Medium,250,Adult Maintenance,Premium
+Dog,Chihuahua,7,4.5,Healthy,High,120,Adult Maintenance,Standard
+Dog,Corgi,5,11.9,No Health Problem,Medium,200,Adult Maintenance,Premium
+Cat,Domestic Shorthair,14,4.5,Age Related,Low,140,Senior Formula,Holistic
+Cat,Ragdoll,10,6.1,Senior,Medium,400,Senior Formula,Premium
+Dog,German Shepherd,5,34.3,Skin Allergy,High,140,Sensitive Skin,Premium
+Cat,Bengal,14,5.1,Age Related,Medium,220,Senior Formula,Premium
+Dog,Labrador Retriever,11,35.6,Age Related,Medium,280,Senior Formula,Holistic
+Dog,Golden Retriever,4,29.0,No Health Problem,High,220,Adult Maintenance,Standard
+Dog,Siberian Husky,6,26.0,Skin Allergy,High,180,Sensitive Skin,Standard
+Cat,American Shorthair,15,6.4,Age Related,Low,280,Senior Formula,Holistic
+Dog,Beagle,12,12.5,Senior,Low,180,Senior Formula,Holistic
+Dog,Beagle,7,11.3,Digestive Problem,Low,220,Digestive Care,Standard
+Cat,Domestic Shorthair,10,4.8,Age Related,Low,400,Senior Formula,Premium
+Cat,Siamese,1,5.1,Growth Stage,Low,350,Puppy/Kitten Growth,Standard
+Dog,Chihuahua,6,1.9,Sensitive Skin,High,100,Sensitive Skin,Holistic
+Cat,Domestic Shorthair,2,3.0,Healthy,High,180,Adult Maintenance,Standard
+Dog,Siberian Husky,7,17.9,Healthy,High,200,Adult Maintenance,Holistic
+Cat,Maine Coon,6,9.7,Skin Allergy,Medium,100,Sensitive Skin,Standard
+Cat,Persian,12,3.1,Senior,Medium,300,Senior Formula,Premium
+Cat,Ragdoll,4,4.9,No Health Problem,High,100,Adult Maintenance,Standard
+Dog,Siberian Husky,11,21.1,Senior,Low,220,Senior Formula,Standard
+Cat,Bengal,13,6.1,Age Related,Low,350,Senior Formula,Premium
+Cat,British Shorthair,3,7.0,Obesity Risk,Low,400,Weight Control,Premium
+Cat,Exotic Shorthair,5,3.7,No Health Problem,High,250,Adult Maintenance,Premium
+Cat,Domestic Shorthair,14,3.3,Senior,High,250,Senior Formula,Holistic
+Dog,Shih Tzu,8,6.7,Obesity Risk,Low,180,Weight Control,Standard
+Dog,Bulldog,4,22.4,Skin Allergy,Medium,250,Sensitive Skin,Premium
+Dog,Shih Tzu,1,7.5,Young,Low,280,Puppy/Kitten Growth,Holistic
+Dog,Poodle,4,5.0,No Health Problem,High,160,Adult Maintenance,Standard
+Cat,British Shorthair,9,4.5,No Health Problem,High,350,Adult Maintenance,Premium
+Dog,Shih Tzu,12,6.4,Age Related,Medium,250,Senior Formula,Standard
+Dog,Golden Retriever,4,28.5,Skin Allergy,Low,120,Sensitive Skin,Standard
+Cat,Bengal,6,7.2,Itching,Medium,140,Sensitive Skin,Standard
+Dog,Corgi,3,11.6,Sensitive Skin,Low,300,Sensitive Skin,Premium
+Cat,Scottish Fold,12,6.7,Senior,Low,200,Senior Formula,Holistic
+Cat,Ragdoll,15,6.1,Age Related,High,280,Senior Formula,Premium
+Cat,Bengal,7,5.3,Healthy,Medium,250,Adult Maintenance,Premium
+Dog,Labrador Retriever,6,37.7,Obesity Risk,Low,250,Weight Control,Premium
+Cat,Domestic Shorthair,6,4.9,Sensitive Stomach,High,250,Digestive Care,Premium
+Dog,Poodle,5,10.9,Sensitive Stomach,High,220,Digestive Care,Premium
+Dog,Poodle,7,7.3,Obesity Risk,Medium,250,Weight Control,Premium
+Dog,Chihuahua,6,3.3,Obesity Risk,High,220,Weight Control,Holistic
+Cat,Ragdoll,11,4.1,Senior,Medium,160,Senior Formula,Standard
+Cat,Siamese,4,3.1,Obesity Risk,Medium,180,Weight Control,Premium
+Dog,Siberian Husky,8,22.9,Healthy,High,220,Adult Maintenance,Premium
+Dog,Poodle,9,5.6,Skin Allergy,Low,120,Sensitive Skin,Holistic
+Cat,Bengal,9,4.9,Food Intolerance,High,140,Digestive Care,Premium
+Dog,Bulldog,9,22.5,Healthy,Medium,250,Adult Maintenance,Holistic
+Dog,Chihuahua,12,3.2,Senior,Medium,220,Senior Formula,Premium
+Dog,Shih Tzu,7,4.6,Itching,High,140,Sensitive Skin,Premium
+Dog,Labrador Retriever,11,33.4,Age Related,Low,160,Senior Formula,Standard
+Cat,Persian,2,5.3,Overweight,High,250,Weight Control,Premium
+Dog,Siberian Husky,10,24.9,Senior,High,280,Senior Formula,Premium
+Cat,Ragdoll,2,4.6,Overweight,Medium,120,Weight Control,Holistic
+Cat,Maine Coon,8,8.2,Hairball,Medium,100,Hairball Control,Standard
+Cat,British Shorthair,3,8.2,No Health Problem,Medium,180,Adult Maintenance,Holistic
+Dog,Chihuahua,8,2.5,No Health Problem,Medium,180,Adult Maintenance,Standard
+Cat,Scottish Fold,7,5.0,Healthy,High,280,Adult Maintenance,Standard
+Dog,Shih Tzu,1,8.4,Young,Medium,220,Puppy/Kitten Growth,Premium
+Cat,Exotic Shorthair,6,5.6,Obesity Risk,Low,250,Weight Control,Standard
+Cat,Persian,14,3.8,Age Related,High,220,Senior Formula,Premium
+Cat,Siamese,15,3.8,Age Related,High,400,Senior Formula,Premium
+Dog,Shih Tzu,5,7.6,No Health Problem,Low,120,Adult Maintenance,Standard
+Dog,Corgi,2,11.5,No Health Problem,Medium,140,Adult Maintenance,Holistic
+Dog,Chihuahua,1,4.5,Young,Low,300,Puppy/Kitten Growth,Standard
+Dog,Siberian Husky,8,29.8,Mobility Problem,High,120,Joint Care,Premium
+Dog,Beagle,10,13.3,Age Related,High,350,Senior Formula,Premium
+Dog,Chihuahua,6,3.8,Arthritis Risk,High,180,Joint Care,Standard
+Dog,Beagle,8,14.7,Healthy,High,140,Adult Maintenance,Premium
+Cat,Ragdoll,7,8.5,Healthy,High,100,Adult Maintenance,Premium
+Dog,Chihuahua,9,4.4,Obesity Risk,High,180,Weight Control,Premium
+Cat,Persian,5,3.7,Food Intolerance,High,400,Digestive Care,Standard
+Dog,Bulldog,8,19.1,Skin Allergy,High,160,Sensitive Skin,Standard
+Cat,Exotic Shorthair,5,6.4,Healthy,High,350,Adult Maintenance,Premium
+Dog,Corgi,11,10.0,Age Related,Low,160,Senior Formula,Premium
+Cat,Maine Coon,1,9.0,Growth Stage,Low,220,Puppy/Kitten Growth,Holistic
+Dog,Poodle,11,6.5,Senior,Medium,120,Senior Formula,Standard
+Cat,Siamese,13,5.0,Age Related,Low,220,Senior Formula,Holistic
+Cat,Siamese,13,3.2,Senior,Low,400,Senior Formula,Premium
+Dog,Shih Tzu,2,4.2,No Health Problem,Low,180,Adult Maintenance,Premium
+Dog,Golden Retriever,10,36.6,Senior,Low,280,Senior Formula,Standard
+Dog,Bulldog,6,19.5,Itching,Medium,120,Sensitive Skin,Standard
+Dog,Shih Tzu,1,6.1,Young,Low,200,Puppy/Kitten Growth,Standard
+Dog,Siberian Husky,6,16.7,Itching,Medium,220,Sensitive Skin,Premium
+Dog,Corgi,11,10.3,Age Related,High,160,Senior Formula,Premium
+Dog,Siberian Husky,4,25.0,Obesity Risk,Medium,400,Weight Control,Premium
+Dog,Chihuahua,7,2.3,Sensitive Stomach,High,200,Digestive Care,Holistic
+Dog,German Shepherd,6,29.7,Digestive Problem,Low,180,Digestive Care,Premium
+Cat,British Shorthair,10,5.6,Senior,Low,180,Senior Formula,Premium
+Dog,Bulldog,1,26.5,Young,Medium,280,Puppy/Kitten Growth,Premium
+Dog,Chihuahua,9,2.1,No Health Problem,Medium,300,Adult Maintenance,Holistic
+Dog,Labrador Retriever,7,29.6,Digestive Problem,Low,140,Digestive Care,Holistic
+Cat,Ragdoll,13,4.2,Senior,High,100,Senior Formula,Standard
+Dog,Beagle,9,14.9,Overweight,Low,400,Weight Control,Holistic
+Dog,German Shepherd,6,32.3,Itching,Medium,180,Sensitive Skin,Standard
+Cat,Persian,12,4.7,Senior,High,250,Senior Formula,Holistic
+Dog,Shih Tzu,5,4.5,Healthy,Low,200,Adult Maintenance,Holistic
+Dog,Corgi,1,11.0,Young,Medium,280,Puppy/Kitten Growth,Premium
+Cat,Domestic Shorthair,1,5.9,Growth Stage,High,350,Puppy/Kitten Growth,Premium
+Dog,German Shepherd,10,38.5,Age Related,High,140,Senior Formula,Premium
+Cat,British Shorthair,10,7.2,Age Related,High,250,Senior Formula,Premium
+Dog,Shih Tzu,10,5.2,Senior,Medium,120,Senior Formula,Premium
+Cat,Bengal,2,4.1,Sensitive Stomach,Medium,280,Digestive Care,Standard
+Cat,Ragdoll,5,7.9,Hairball,Low,280,Hairball Control,Holistic
+Cat,Siamese,2,4.4,Hairball,Low,350,Hairball Control,Standard
+Cat,Domestic Shorthair,5,3.4,Itching,High,100,Sensitive Skin,Premium
+Cat,Scottish Fold,7,3.8,Healthy,Low,280,Adult Maintenance,Premium
+Cat,Scottish Fold,15,3.8,Senior,Medium,140,Senior Formula,Premium
+Cat,Exotic Shorthair,8,5.0,Hairball,High,200,Hairball Control,Premium
+Dog,German Shepherd,6,29.1,Joint Problem,High,140,Joint Care,Premium
+Dog,Shih Tzu,2,8.7,Overweight,Low,200,Weight Control,Premium
+Dog,German Shepherd,9,35.3,Sensitive Skin,High,180,Sensitive Skin,Premium
+Dog,Bulldog,7,19.9,Mobility Problem,Low,220,Joint Care,Standard
+Cat,Exotic Shorthair,14,5.6,Age Related,Medium,120,Senior Formula,Premium
+Dog,Poodle,7,4.6,Joint Problem,Low,280,Joint Care,Standard
+Cat,American Shorthair,4,6.7,Hairball,Medium,280,Hairball Control,Premium
+Dog,Corgi,10,12.8,Senior,High,400,Senior Formula,Holistic
+Cat,Maine Coon,5,9.9,Healthy,Low,300,Adult Maintenance,Holistic
+Dog,Poodle,7,9.1,Sensitive Stomach,Low,180,Digestive Care,Premium
+Cat,Domestic Shorthair,1,4.3,Growth Stage,Medium,120,Puppy/Kitten Growth,Holistic
+Cat,Siamese,3,3.2,Healthy,High,280,Adult Maintenance,Standard
+Cat,British Shorthair,11,8.7,Age Related,Medium,120,Senior Formula,Standard
+Cat,Ragdoll,9,6.1,Healthy,Medium,300,Adult Maintenance,Premium
+Cat,Scottish Fold,4,4.8,Hairball,Low,250,Hairball Control,Holistic
+Cat,British Shorthair,3,4.1,Digestive Problem,Medium,250,Digestive Care,Premium
+Dog,Shih Tzu,6,7.1,Sensitive Stomach,Low,200,Digestive Care,Holistic
+Dog,Corgi,9,15.5,Obesity Risk,Low,200,Weight Control,Premium
+Cat,Domestic Shorthair,11,3.1,Senior,Medium,300,Senior Formula,Holistic
+Dog,Poodle,1,7.7,Young,High,250,Puppy/Kitten Growth,Standard
+Dog,German Shepherd,12,22.5,Senior,Low,180,Senior Formula,Premium
+Dog,Golden Retriever,6,30.1,Healthy,Medium,250,Adult Maintenance,Holistic
+Cat,Bengal,15,7.5,Senior,Low,350,Senior Formula,Premium
+Dog,Siberian Husky,2,23.1,Arthritis Risk,High,200,Joint Care,Standard
+Dog,German Shepherd,9,33.0,No Health Problem,High,400,Adult Maintenance,Standard
+Cat,Maine Coon,1,10.6,Growth Stage,Medium,300,Puppy/Kitten Growth,Standard
+Cat,Exotic Shorthair,8,3.2,Hairball,High,200,Hairball Control,Premium
+Cat,Siamese,6,3.8,Healthy,Medium,300,Adult Maintenance,Standard
+Cat,Ragdoll,15,5.0,Age Related,High,350,Senior Formula,Standard
+Dog,Chihuahua,4,3.1,Overweight,Low,400,Weight Control,Standard
+Dog,German Shepherd,10,28.6,Age Related,Low,160,Senior Formula,Premium
+Cat,Maine Coon,7,9.5,Healthy,Low,160,Adult Maintenance,Standard
+Cat,Scottish Fold,10,6.0,Age Related,Low,120,Senior Formula,Standard
+Dog,Labrador Retriever,10,31.9,Age Related,High,180,Senior Formula,Standard
+Cat,American Shorthair,11,6.6,Age Related,High,220,Senior Formula,Holistic
+Dog,Labrador Retriever,12,29.9,Age Related,Low,220,Senior Formula,Standard
+Cat,Scottish Fold,6,3.2,Digestive Problem,Medium,300,Digestive Care,Premium
+Dog,Beagle,10,13.3,Senior,High,200,Senior Formula,Standard
+Cat,Exotic Shorthair,12,4.6,Age Related,High,250,Senior Formula,Standard
+Dog,Beagle,6,11.8,Sensitive Skin,Medium,400,Sensitive Skin,Premium
+Dog,Labrador Retriever,11,37.3,Age Related,Low,100,Senior Formula,Premium
+Dog,Shih Tzu,9,5.5,No Health Problem,Medium,350,Adult Maintenance,Standard
+Dog,Siberian Husky,2,25.9,Arthritis Risk,Low,140,Joint Care,Premium
+Cat,British Shorthair,7,5.9,Hairball,High,120,Hairball Control,Holistic
+Cat,Exotic Shorthair,6,5.2,Hairball,Low,160,Hairball Control,Holistic
+Dog,Poodle,4,7.4,Sensitive Skin,Low,120,Sensitive Skin,Premium
+Cat,Domestic Shorthair,4,6.0,Digestive Problem,High,120,Digestive Care,Premium
+Dog,Siberian Husky,10,26.8,Age Related,High,120,Senior Formula,Premium
+Dog,Labrador Retriever,10,28.5,Age Related,Low,280,Senior Formula,Premium
+Dog,Beagle,11,13.2,Age Related,Low,120,Senior Formula,Standard
+Dog,Chihuahua,6,2.9,Healthy,Low,220,Adult Maintenance,Premium
+Dog,Labrador Retriever,2,20.7,Healthy,Low,400,Adult Maintenance,Premium
+Dog,German Shepherd,8,29.3,Sensitive Skin,High,200,Sensitive Skin,Holistic
+Cat,Domestic Shorthair,7,5.0,Healthy,Medium,400,Adult Maintenance,Holistic
+Cat,Ragdoll,11,4.6,Age Related,High,100,Senior Formula,Standard
+Cat,Ragdoll,1,8.9,Growth Stage,Low,120,Puppy/Kitten Growth,Premium
+Dog,Bulldog,2,23.5,No Health Problem,Low,280,Adult Maintenance,Holistic
+Cat,Siamese,9,4.9,Hairball,Low,280,Hairball Control,Premium
+Dog,Shih Tzu,3,8.5,Overweight,Low,280,Weight Control,Premium
+Dog,Chihuahua,6,2.2,Arthritis Risk,Low,160,Joint Care,Premium
+Cat,American Shorthair,1,6.0,Growth Stage,Medium,160,Puppy/Kitten Growth,Premium
+Dog,Shih Tzu,8,5.2,Sensitive Stomach,Low,250,Digestive Care,Standard
+Cat,Bengal,12,5.1,Senior,High,350,Senior Formula,Standard
+Cat,Ragdoll,5,5.7,Itching,High,300,Sensitive Skin,Holistic
+Cat,Exotic Shorthair,1,6.6,Growth Stage,Medium,300,Puppy/Kitten Growth,Holistic
+Dog,Shih Tzu,10,6.2,Age Related,High,280,Senior Formula,Premium
+Cat,Scottish Fold,7,5.7,No Health Problem,High,400,Adult Maintenance,Premium
+Dog,German Shepherd,9,29.6,Mobility Problem,High,120,Joint Care,Standard
+Dog,Shih Tzu,4,6.8,Food Intolerance,High,400,Digestive Care,Premium
+Dog,Golden Retriever,6,32.5,No Health Problem,High,100,Adult Maintenance,Standard
+Dog,Corgi,7,12.2,Sensitive Stomach,Low,300,Digestive Care,Premium
+Dog,Chihuahua,6,3.9,Obesity Risk,High,400,Weight Control,Holistic
+Dog,Chihuahua,10,3.4,Age Related,Medium,180,Senior Formula,Premium
+Dog,Beagle,5,8.5,Digestive Problem,High,350,Digestive Care,Premium
+Cat,Domestic Shorthair,8,4.8,Food Intolerance,High,200,Digestive Care,Standard
+Cat,Maine Coon,11,6.5,Age Related,Low,250,Senior Formula,Standard
+Dog,Siberian Husky,6,19.5,Mobility Problem,Low,220,Joint Care,Standard
+Cat,Ragdoll,1,4.1,Growth Stage,Medium,300,Puppy/Kitten Growth,Standard
+Dog,Corgi,5,15.7,Overweight,Low,280,Weight Control,Standard
+Cat,Persian,5,5.0,Skin Allergy,High,120,Sensitive Skin,Standard
+Dog,Labrador Retriever,9,25.7,Healthy,Medium,140,Adult Maintenance,Holistic
+Cat,British Shorthair,6,6.3,No Health Problem,High,300,Adult Maintenance,Premium
+Cat,Siamese,9,5.2,Skin Allergy,High,120,Sensitive Skin,Standard
+Cat,Maine Coon,1,11.0,Growth Stage,Medium,180,Puppy/Kitten Growth,Premium
+Dog,German Shepherd,7,35.4,Obesity Risk,Medium,400,Weight Control,Standard
+Cat,Ragdoll,10,4.1,Age Related,High,300,Senior Formula,Standard
+Dog,Chihuahua,5,2.3,Sensitive Stomach,High,180,Digestive Care,Premium
+Dog,Beagle,6,11.3,Joint Problem,Low,120,Joint Care,Holistic
+Cat,Bengal,3,5.4,Itching,High,200,Sensitive Skin,Standard
+Cat,Maine Coon,10,5.2,Age Related,Low,140,Senior Formula,Standard
+Cat,Persian,5,3.2,Hairball,Medium,120,Hairball Control,Premium
+Dog,Labrador Retriever,2,21.4,Sensitive Skin,Medium,350,Sensitive Skin,Premium
+Dog,Beagle,9,12.4,Itching,Medium,300,Sensitive Skin,Premium
+Cat,Ragdoll,11,7.0,Senior,High,200,Senior Formula,Standard
+Dog,Siberian Husky,11,29.6,Age Related,High,350,Senior Formula,Standard
+Cat,Exotic Shorthair,5,3.6,Food Intolerance,Medium,400,Digestive Care,Holistic
+Dog,Labrador Retriever,4,37.4,Sensitive Skin,High,350,Sensitive Skin,Premium
+Dog,Bulldog,11,18.5,Senior,High,220,Senior Formula,Standard
+Cat,Bengal,10,6.3,Age Related,High,120,Senior Formula,Standard
+Dog,Chihuahua,5,2.0,Mobility Problem,High,100,Joint Care,Holistic
+Dog,Golden Retriever,1,32.6,Young,High,140,Puppy/Kitten Growth,Premium
+Dog,German Shepherd,8,24.1,Mobility Problem,Medium,120,Joint Care,Standard
+Dog,Bulldog,6,21.0,Sensitive Stomach,Medium,220,Digestive Care,Premium
+Cat,American Shorthair,5,5.9,Itching,Low,250,Sensitive Skin,Premium
+Cat,Bengal,10,6.8,Senior,High,400,Senior Formula,Standard
+Dog,Chihuahua,4,4.1,Skin Allergy,High,100,Sensitive Skin,Holistic
+Cat,Ragdoll,7,8.1,Skin Allergy,High,250,Sensitive Skin,Holistic
+Dog,Labrador Retriever,6,27.4,Sensitive Stomach,High,160,Digestive Care,Standard
+Dog,Corgi,10,9.8,Senior,High,200,Senior Formula,Standard
+Dog,Bulldog,10,20.7,Age Related,Low,200,Senior Formula,Standard
+Dog,Chihuahua,10,3.4,Age Related,High,160,Senior Formula,Premium
+Cat,British Shorthair,1,8.3,Growth Stage,High,350,Puppy/Kitten Growth,Premium
+Cat,British Shorthair,6,5.3,No Health Problem,High,250,Adult Maintenance,Premium
+Dog,Shih Tzu,11,4.4,Age Related,Low,180,Senior Formula,Premium
+Cat,Ragdoll,6,6.5,No Health Problem,High,300,Adult Maintenance,Standard
+Dog,Labrador Retriever,5,35.5,Joint Problem,Medium,180,Joint Care,Premium
+Dog,Corgi,6,9.9,Food Intolerance,Medium,200,Digestive Care,Standard
+Cat,British Shorthair,13,6.7,Age Related,Medium,400,Senior Formula,Holistic
+Cat,Maine Coon,5,8.1,Obesity Risk,Medium,120,Weight Control,Premium
+Cat,Bengal,7,4.8,Healthy,High,100,Adult Maintenance,Standard
+Dog,Golden Retriever,6,21.2,Joint Problem,High,220,Joint Care,Holistic
+Dog,Labrador Retriever,10,21.0,Age Related,Low,250,Senior Formula,Holistic
+Dog,Bulldog,10,22.7,Age Related,Low,220,Senior Formula,Premium
+Cat,Scottish Fold,8,4.7,Healthy,Medium,400,Adult Maintenance,Standard
+Cat,Domestic Shorthair,5,5.2,Healthy,Medium,160,Adult Maintenance,Premium
+Dog,Corgi,5,12.2,Food Intolerance,Medium,220,Digestive Care,Standard
+Cat,Maine Coon,7,6.9,Digestive Problem,High,250,Digestive Care,Standard
+Cat,British Shorthair,15,7.6,Age Related,Low,220,Senior Formula,Premium
+Dog,Beagle,3,10.4,Obesity Risk,Medium,100,Weight Control,Standard
+Dog,Beagle,6,10.6,Healthy,High,300,Adult Maintenance,Holistic
+Cat,Siamese,3,3.9,Healthy,High,140,Adult Maintenance,Premium
+Dog,Corgi,4,10.4,Healthy,Low,140,Adult Maintenance,Holistic
+Cat,British Shorthair,9,7.0,Hairball,Medium,140,Hairball Control,Standard
+Dog,Corgi,5,15.1,Sensitive Skin,Medium,140,Sensitive Skin,Holistic
+Cat,British Shorthair,5,4.1,Healthy,Low,250,Adult Maintenance,Standard
+Cat,Exotic Shorthair,3,5.2,Obesity Risk,Medium,280,Weight Control,Premium
+Dog,Siberian Husky,11,23.9,Senior,High,280,Senior Formula,Premium
+Dog,Corgi,3,9.0,Healthy,Medium,280,Adult Maintenance,Holistic
+Dog,Bulldog,10,26.1,Age Related,Medium,160,Senior Formula,Standard
+Dog,Chihuahua,5,5.0,Food Intolerance,High,300,Digestive Care,Premium
+Cat,Bengal,13,4.7,Senior,Low,140,Senior Formula,Premium
+Dog,German Shepherd,1,30.5,Young,Low,400,Puppy/Kitten Growth,Standard
+Dog,Golden Retriever,11,33.2,Senior,Low,400,Senior Formula,Standard
+Cat,Persian,13,5.5,Senior,Low,350,Senior Formula,Premium
+Cat,Bengal,12,5.8,Senior,Low,100,Senior Formula,Standard
+Cat,Bengal,11,5.0,Age Related,High,220,Senior Formula,Premium
+Cat,Scottish Fold,3,3.9,Digestive Problem,High,160,Digestive Care,Premium
+Dog,Shih Tzu,10,4.5,Age Related,Low,250,Senior Formula,Premium
+Dog,Poodle,8,11.0,Overweight,Low,250,Weight Control,Holistic
+Cat,Domestic Shorthair,7,6.4,Overweight,Low,120,Weight Control,Standard
+Cat,Scottish Fold,1,4.3,Growth Stage,Medium,250,Puppy/Kitten Growth,Premium
+Dog,Golden Retriever,11,23.4,Senior,Medium,220,Senior Formula,Holistic
+Dog,Siberian Husky,1,17.1,Young,High,280,Puppy/Kitten Growth,Standard
+Dog,Shih Tzu,7,4.9,Digestive Problem,Medium,100,Digestive Care,Holistic
+Dog,Shih Tzu,9,7.4,Skin Allergy,High,250,Sensitive Skin,Holistic
+Cat,Persian,15,4.9,Senior,Low,100,Senior Formula,Premium
+Cat,Domestic Shorthair,2,3.0,Hairball,Low,200,Hairball Control,Premium
+Dog,Chihuahua,7,4.3,Itching,Low,250,Sensitive Skin,Holistic
+Cat,American Shorthair,11,4.4,Age Related,High,300,Senior Formula,Premium
+Cat,Domestic Shorthair,13,3.5,Senior,High,120,Senior Formula,Holistic
+Cat,American Shorthair,8,5.3,Hairball,Medium,300,Hairball Control,Standard
+Cat,Domestic Shorthair,1,6.1,Growth Stage,Medium,140,Puppy/Kitten Growth,Standard
+Dog,Golden Retriever,3,20.4,No Health Problem,Low,300,Adult Maintenance,Standard
+Dog,Bulldog,2,23.4,Food Intolerance,High,120,Digestive Care,Standard
+Dog,Golden Retriever,7,29.0,Food Intolerance,Medium,280,Digestive Care,Premium
+Cat,Domestic Shorthair,9,4.3,Food Intolerance,Low,180,Digestive Care,Standard
+Dog,Labrador Retriever,12,30.3,Age Related,Medium,100,Senior Formula,Premium
+Dog,Chihuahua,7,4.2,Obesity Risk,Low,400,Weight Control,Premium
+Cat,Bengal,7,4.6,Hairball,Low,400,Hairball Control,Premium
+Cat,Scottish Fold,9,5.4,Hairball,Medium,200,Hairball Control,Premium
+Cat,Scottish Fold,1,3.7,Growth Stage,Medium,100,Puppy/Kitten Growth,Standard
+Cat,Scottish Fold,7,6.3,Hairball,Medium,180,Hairball Control,Holistic
+Cat,British Shorthair,4,8.8,Overweight,Low,250,Weight Control,Standard
+Dog,Siberian Husky,4,21.3,Sensitive Skin,Medium,200,Sensitive Skin,Standard
+Dog,Poodle,9,5.2,Joint Problem,Medium,160,Joint Care,Standard
+Dog,Corgi,5,16.0,Food Intolerance,High,160,Digestive Care,Holistic
+Dog,Poodle,2,6.6,No Health Problem,Low,140,Adult Maintenance,Standard
+Cat,American Shorthair,2,7.5,Itching,Medium,350,Sensitive Skin,Standard
+Dog,Golden Retriever,9,21.0,No Health Problem,Medium,300,Adult Maintenance,Holistic
+Dog,Shih Tzu,11,5.1,Senior,Low,120,Senior Formula,Standard
+Dog,Corgi,8,15.9,Itching,High,200,Sensitive Skin,Premium
+Cat,Bengal,7,5.6,No Health Problem,Medium,120,Adult Maintenance,Standard
+Cat,American Shorthair,4,7.4,Healthy,High,350,Adult Maintenance,Holistic
+Cat,Scottish Fold,2,6.1,Hairball,High,400,Hairball Control,Holistic
+Cat,Persian,10,5.0,Senior,Low,160,Senior Formula,Premium
+Dog,Chihuahua,4,3.4,Joint Problem,Low,140,Joint Care,Premium
+Dog,Bulldog,7,25.6,Overweight,Medium,400,Weight Control,Premium
+Dog,German Shepherd,10,30.9,Age Related,High,220,Senior Formula,Holistic
+Cat,Exotic Shorthair,2,5.8,Hairball,Low,350,Hairball Control,Standard
+Cat,Domestic Shorthair,7,5.2,Overweight,Medium,160,Weight Control,Standard
+Cat,Scottish Fold,7,4.0,Obesity Risk,Low,300,Weight Control,Standard
+Dog,Chihuahua,8,3.0,Healthy,Medium,200,Adult Maintenance,Standard
+Dog,Corgi,8,10.9,Sensitive Skin,Medium,140,Sensitive Skin,Premium
+Dog,German Shepherd,1,27.6,Young,High,140,Puppy/Kitten Growth,Premium
+Dog,Chihuahua,8,1.6,No Health Problem,Low,180,Adult Maintenance,Premium
+Cat,British Shorthair,14,7.4,Age Related,High,350,Senior Formula,Holistic
